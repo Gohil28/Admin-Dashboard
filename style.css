@@ -1,0 +1,136 @@
+.main {
+   display: grid; 
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+   gap: 0px;
+   height: 100%;
+
+   margin: 0px;
+   padding: 0px;
+   
+}
+body {
+   margin: 0px;
+   padding: 0px ;
+   position: relative;
+}
+.dashboard_side {
+   background-color: #1F4690;
+   text-align: center;
+   grid-row-start: 1;
+   grid-column-start: 1;
+   margin: 0px;
+   padding: opx;
+   grid-row-end: 4;
+   grid-column-end: 2;
+   
+}
+.hader_side {
+
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 6;
+   
+}
+.content_side {
+
+   grid-row-start: 2;
+   grid-column-start: 2;
+
+   grid-row-end: 4;
+   grid-column-end: 6;
+   
+}
+.dashboard_side tr td img 
+{
+   height: 35px;
+}
+.dashboard_side tr td {
+   text-align: center;
+   align-content: center;
+
+}
+
+a {
+   cursor: pointer;
+   text-decoration :none;
+   color : white;
+}
+a :hover {
+   color: #FFE5B4;
+   text-decoration: underline;
+   font-family: monospace;
+   font-size: 20px;
+}
+.header_side {
+   background-color: #FFA500;
+   margin-bottom: 33px;
+}
+.search_cont  {
+   margin-top: 5px;
+}
+.profile-con {
+   margin-left: 100px;
+}
+img
+{
+   height: 40px;
+   cursor: pointer;
+}
+.header-btn {
+   border-radius: 10px 10px 10px 10px ;
+   border-color: #1F4690;
+   margin-left: 20px;
+   margin-bottom: 0px;
+   color: white;
+   font-size: 20px;
+   background-color: #1F4690;
+}
+.content_side{
+
+}
+.content_side_first{
+   display: grid;
+   grid-template-rows: 1fr 1fr ;
+   grid-template-columns: 1fr 1fr ;
+   padding: 2px;
+   gap : 4px;
+   height: 100%;
+}
+.content_side_first {
+   border: 2px;
+   border-color: yellow;
+}
+.content_side_first a div img{
+   height: 30px;
+}
+.content_side_first a div img:hover{
+   height: 40px;
+}
+.content_side_first h2{
+   font-family: sans-serif;
+   color: black;
+}
+.content_side_first a h3{
+   font-size: 25px;
+   color: black;
+}
+.content_side_first a div p {
+   color: black;
+   font-size: 20px;
+   font-family: sans-serif;
+}
+.content_side_first a{
+   border: 3px solid black;
+   opacity: 0.9;
+   text-decoration: none;
+}
+.content_side_first a:hover {
+   border: 3px solid blue;
+   border-color: blue;
+   opacity: 1;
+   text-decoration: none;
+   box-shadow: 2px 2px 2px 3px rgb(125, 138, 221);
+}
